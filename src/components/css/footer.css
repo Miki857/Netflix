@@ -1,0 +1,19 @@
+.footer__secion{
+    padding: 2rem;
+    width: 100%;
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .footer__secion{
+
+        .container{
+            grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        }
+    }
+}
